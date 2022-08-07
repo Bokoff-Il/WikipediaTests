@@ -32,7 +32,6 @@ public class TestBase {
         } else {
             Configuration.browser = BrowserstackMobileDriver.class.getName();
         }
-
         Configuration.browserSize = null;
     }
 

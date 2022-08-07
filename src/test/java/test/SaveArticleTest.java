@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.back;
 class SaveArticleTest extends TestBase {
 
     @Test
-    @DisplayName("Проверка поиска и сохранения статьи")
+    @DisplayName("Проверка сохранения статьи")
     void saveArticleTest() {
         back();
         mainPage.searchArticle("BrowserStack")
